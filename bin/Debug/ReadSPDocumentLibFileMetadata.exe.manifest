@@ -270,14 +270,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReadSPDocumentLibFileMetadata.exe" size="39880">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReadSPDocumentLibFileMetadata.exe" size="40392">
       <assemblyIdentity name="ReadSPDocumentLibFileMetadata" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Jcp/TQbQNiwVdcS8A58YLqAZkDqYZq9Grq/OzjxUyrg=</dsig:DigestValue>
+        <dsig:DigestValue>UhQoqBpB89y8vgIYTneRZGnAsBjV3wSvadF0g/1wjXc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -3152,13 +3152,13 @@
       <dsig:DigestValue>TP/WCrkdytGoB1lNNx0REDoXrhB1UmD+ZKy+17qimyA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="ReadSPDocumentLibFileMetadata.exe.config" size="2687">
+  <file name="ReadSPDocumentLibFileMetadata.exe.config" size="2286">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>sV4rh887oyWThVnOmpvrJP2VFgGBh864QD3ZyK2eNsQ=</dsig:DigestValue>
+      <dsig:DigestValue>SRJTQzj42YurdREjPkvYGH1VGJVfs643IFYNcMjWG6w=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
