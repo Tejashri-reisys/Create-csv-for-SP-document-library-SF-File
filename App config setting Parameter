@@ -1,0 +1,46 @@
+
+<add key="UserName" value="<SharePoint Site UserName>" />
+description=Please provide the SharePoint Site User Name to connect which has full(Read) access to SP document library.
+
+<add key="Password" value="<SharePoint Site Password>" />
+description="Please provide the Password for above mentioned UserName"
+
+<add key="AccessSpecifier" value="<SharePoint Site file access specifier Public or private>" />
+eg: <add key="AccessSpecifier" value="public" />
+
+<add key="PublicCSVFilepath" value="<Path where output csv file of public  SP document library stored>" />
+eg:<add key="PrivateCSVFilepath" value="Output Files/Public/" />
+Description: you can get csv file of all  public document library files under: Output Files/Public/
+
+<add key="PrivateCSVFilepath" value="<Path where output csv file of Private SP document library stored>" />
+eg:<add key="PrivateCSVFilepath" value="Output Files/Private/" />
+Description: you can get csv file of all Private document library files under: Output Files/Private/
+
+<add key="PublicsiteUrl" value="https://<site url>/sites/<PublicSiteUrl>/" />
+description="Please provide the SharePoint Public Site Url that you want to store public files."
+
+<add key="SPPublicDocumentLibrary" value="<PublicDocumentLibrary>" />
+description="Please provide the SharePoint Document Library name where public files will be uploaded." 
+    
+<add key="PrivatesiteUrl" value="https://<site url>/sites/<PrivateSiteUrl>/" />
+description="Please provide the SharePoint private Site Url that you want to store private files."
+ 
+<add key="SPPrivateDocumentLibrary" value="<PrivateDocumentLibrary>" />
+description="Please provide the SharePoint Document Library name where private files will be uploaded."
+ 
+<add key="PrivateFileUrlForDownload" value="_layouts/15/download.aspx?SourceUrl=https://<site url>" />
+description="Please provide the SharePoint private Site Url that will return uploaded private file URL for download purpose."
+
+<add key="PublicFileUrlForDownload" value="_layouts/15/download.aspx?share=" />
+description="Please provide the SharePoint public Site Url that will return uploaded public file URL for view purpose."
+<add key="UploadedFileUrl" value="https://<site url>" />
+description="Please provide the SharePoint private Site Url that will return uploaded private file URL for view purpose."
+
+<add key="folderName" value="<Valid folder name under SP Document library>" />
+description= Folder name from where SF files will be uploaded under public/private SharePoint Document Library 
+
+<add key="SubFolderfolderName" value="" />
+description= Folder name is name of subfolder from where SF files will be uploaded under public/private SharePoint Document Library -->folderName
+
+<add key="FileNameinSubfolder" value="BUG 97535 File Screenshot.png" />
+description= Folder name is name of SF files will be uploaded under public/private SharePoint Document Library -->folderName-->SubFolderfolderName
