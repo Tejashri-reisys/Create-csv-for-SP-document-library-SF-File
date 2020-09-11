@@ -277,7 +277,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UhQoqBpB89y8vgIYTneRZGnAsBjV3wSvadF0g/1wjXc=</dsig:DigestValue>
+        <dsig:DigestValue>bwTF/fjTaWs4C7W1c5rGKsnyuf/oX819k9gmhy8tTuA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -3152,13 +3152,13 @@
       <dsig:DigestValue>TP/WCrkdytGoB1lNNx0REDoXrhB1UmD+ZKy+17qimyA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="ReadSPDocumentLibFileMetadata.exe.config" size="2286">
+  <file name="ReadSPDocumentLibFileMetadata.exe.config" size="2257">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>SRJTQzj42YurdREjPkvYGH1VGJVfs643IFYNcMjWG6w=</dsig:DigestValue>
+      <dsig:DigestValue>UUnXJctM6QqOe+icloc8QeYxLSE16sLCM1nLOg2XqTU=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
